@@ -97,8 +97,8 @@ jobs:
         with:
           postgresql version: "12"
           postgresql db: render
-          postgresql user: coffeebreak
-          postgresql password: Wizeliner
+          postgresql user: render
+          postgresql password: Render
 
       - name: 📥 Download deps
         uses: bahmutov/npm-install@v1
